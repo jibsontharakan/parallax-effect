@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATA MOTORS</title>
+    
+<!-- css -->
+ <link rel="stylesheet" href="parallax.css">
+
+ <!-- JS -->
+  <!-- <script src="parallax.js"></script> -->
+
+<!-- AOS animation -->
+ <!-- css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- js -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+   <!-- Tailwind css -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+   <!-- favicon -->
+    <link rel="icon" type="image/png" href="https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_ogp_001.png">
+</head>
+<body>
+
+    <!-- header -->
+     <header class="px-4 md:px-8 lg:px-12 py-4">
+
+    <!-- Logo + Heading -->
+    <div class="flex flex-col md:flex-row items-cemter justify-start gap-[500px]">
+
+        <img
+            src="https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_001.jpg"
+            class="rounded-lg w-20 h-20 md:w-24 md:h-24">
+
+        <h1 data-aos="fade-right"
+            class="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 text-center">
+            TOYOTA MOTORS
+        </h1>
+
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Navbar -->
+    <nav>
+
+        <ul class="flex flex-col md:flex-row justify-around items-center gap-2 md:gap-16 text-lg md:text-2xl font-bold text-blue-900">
+
+            <li data-aos="fade-right">
+                <a href="#home" class="hover:text-red-500 transition">Home</a>
+            </li>
+
+            <li data-aos="fade-right">
+                <a href="#about" class="hover:text-red-500 transition">About</a>
+            </li>
+
+            <li data-aos="fade-right">
+                <a href="#car" class="hover:text-red-500 transition">Cars</a>
+            </li>
+
+            <li data-aos="fade-right">
+                <a href="#contact" class="hover:text-red-500 transition">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <hr class="mt-4">
+
+</header>
+
+<!-- home -->
+
+<section class="relative h-screen overflow-hidden" id="home">
+
+    <!-- Video -->
+    <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute top-0 left-0 w-full h-full object-cover">
+
+        <source src="./16306917_1920_1080_25fps (1) (1).mp4" type="video/mp4">
+
+    </video>
+
+    <!-- Overlay -->
+
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Content -->
+
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
+
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
+            TOYOTA MOTORS
+        </h1>
+
+        <p class="text-base sm:text-lg md:text-xl mt-4">
+            Driving Innovation. Inspiring the Future.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+
+            <button
+                class="bg-blue-700 px-6 py-3 rounded-lg hover:bg-blue-900 transition">
+
+                Explore Cars
+
+            </button>
+
+            <a href="#about">
+
+                <button
+                    class="border-2 border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition">
+
+                    Learn More
+
+                </button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about -->
+ <section id="about"
+class="relative min-h-screen bg-fixed bg-center bg-cover flex items-center"
+style="background-image: url('https://static-cdn.cars24.com/prod/new-car-cms/Toyota/Taisor/2024/05/06/a96bad59-0f97-45fc-ac24-88c904529c44-Taisor-Featured-Image.jpg?w=300&dpr=2.625&optimize=low&format=auto&quality=50');">
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+            <!-- Text -->
+            <div data-aos="fade-right" class="text-white">
+
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+                    About Toyota Motor India
+                </h2>
+
+                <p class="text-base sm:text-lg leading-relaxed mb-5">
+                    Toyota Motor India Private Limited is a subsidiary of
+                    Toyota Motor Corporation, Japan, one of the world's
+                    leading automobile manufacturers. Toyota entered the
+                    Indian market in 1997 with a vision to provide
+                    world-class vehicles with advanced technology and
+                    superior quality.
+                </p>
+
+                <p class="text-base sm:text-lg leading-relaxed mb-5">
+                    Toyota has created a strong presence in India with
+                    premium SUVs, MPVs, sedans, and hybrid vehicles.
+                    The company is recognized for reliability, safety,
+                    innovation, and customer satisfaction.
+                </p>
+
+                <p class="text-base sm:text-lg leading-relaxed">
+                    Toyota continues to support India's automotive
+                    growth through local manufacturing, sustainable
+                    mobility solutions, and advanced automotive
+                    technologies.
+                </p>
+
+                <button
+                    class="mt-8 px-6 py-3 bg-red-600 rounded-lg hover:bg-red-700 transition duration-300">
+
+                    <a href="#car">
+                        Explore Toyota
+                    </a>
+
+                </button>
+
+            </div>
+
+            <!-- Image -->
+            <div
+                data-aos="flip-up"
+                class="flex justify-center">
+
+                <img
+                    src="https://fortune-toyota.com/wp-content/uploads/2024/03/Fortuner-features-banner.webp"
+                    alt="Toyota Fortuner"
+                    class="w-full max-w-lg rounded-2xl shadow-2xl object-cover">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- car -->
+<!-- CAR -->
+<section
+class="relative bg-fixed bg-cover bg-center py-16 text-white"
+style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBATguvmyKKm-2b_n_znXJOXQrws_vxPxETr-E5wDJ9A&s=10');"
+id="car">
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+<h2 data-aos="zoom-in-up"
+class="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-200 mb-12">
+
+Toyota Featured Cars
+
+</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+
+<!-- Fortuner -->
+<div data-aos="zoom-in-up"
+class="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300">
+
+<img
+data-aos="fade-right"
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dBRMTbVgV9z-hmJSWfCC-g1oyVQnKleM2OxdzMccCh1sXR3RdMRYgN5l&s=10"
+class="w-full h-56 sm:h-64 object-cover"
+alt="Toyota Fortuner">
+
+<div class="p-5 sm:p-6">
+
+<h3 data-aos="fade-right"
+class="text-2xl sm:text-3xl font-bold text-red-500">
+
+Toyota Fortuner
+
+</h3>
+
+<p data-aos="fade-right"
+class="mt-3 text-sm sm:text-base text-gray-300">
+
+Toyota Fortuner is a premium SUV known for its powerful performance,
+luxury design, and off-road capability.
+
+</p>
+
+<ul class="mt-4 text-sm sm:text-base text-gray-300 space-y-2">
+
+<li data-aos="fade-right">🚗 Engine: 2.8L Diesel / 2.7L Petrol</li>
+
+<li data-aos="fade-right">⚡ Power: Up to 204 PS</li>
+
+<li data-aos="fade-right">⚙️ Transmission: Automatic & Manual</li>
+
+<li data-aos="fade-right">🛡 Safety: Advanced Safety Features</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<!-- Innova Crysta -->
+<div data-aos="zoom-in-up"
+class="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300">
+
+<img
+data-aos="fade-left"
+src="https://media.zigcdn.com/media/content/2016/Apr/toyota-innova-crysta-review-zigwheels-india-m46.jpg?tr=w-420"
+class="w-full h-56 sm:h-64 object-cover"
+alt="Toyota Innova Crysta">
+
+<div class="p-5 sm:p-6">
+
+<h3 data-aos="fade-left"
+class="text-2xl sm:text-3xl font-bold text-red-500">
+
+Toyota Innova Crysta
+
+</h3>
+
+<p data-aos="fade-left"
+class="mt-3 text-sm sm:text-base text-gray-300">
+
+A premium MPV offering excellent comfort, spacious interiors and
+reliable performance.
+
+</p>
+
+<ul class="mt-4 text-sm sm:text-base text-gray-300 space-y-2">
+
+<li data-aos="fade-left">🚗 Engine: 2.4L Diesel</li>
+
+<li data-aos="fade-left">👥 Seating: 7/8 Seater</li>
+
+<li data-aos="fade-left">⚙️ Transmission: Manual</li>
+
+<li data-aos="fade-left">🛡 Safety: Multiple Airbags & ABS</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<!-- Camry -->
+<div data-aos="zoom-in-up"
+class="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300">
+
+    <img
+    data-aos="fade-right"
+    src="https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=665520"
+    class="w-full h-56 sm:h-64 object-cover"
+    alt="Toyota Camry">
+
+    <div class="p-5 sm:p-6">
+
+        <h3
+        data-aos="fade-right"
+        class="text-2xl sm:text-3xl font-bold text-red-500">
+
+            Toyota Camry
+
+        </h3>
+
+        <p
+        data-aos="fade-right"
+        class="mt-3 text-sm sm:text-base text-gray-300">
+
+            Toyota Camry is a luxury sedan combining elegant design,
+            hybrid technology and premium comfort.
+
+        </p>
+
+        <ul class="mt-4 text-sm sm:text-base text-gray-300 space-y-2">
+
+            <li data-aos="fade-right">🔋 Engine: 2.5L Hybrid</li>
+
+            <li data-aos="fade-right">⚡ Power: 218 PS</li>
+
+            <li data-aos="fade-right">⛽ Fuel Type: Hybrid</li>
+
+            <li data-aos="fade-right">✨ Premium Interior Design</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<!-- Land Cruiser -->
+<div data-aos="zoom-in-up"
+class="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:scale-105 hover:shadow-2xl transition duration-300">
+
+    <img
+    data-aos="fade-left"
+    src="https://www.thecarexpert.co.uk/wp-content/uploads/2024/04/2024-Toyota-Land-Cruiser-2133x1200-cropped.jpg"
+    class="w-full h-56 sm:h-64 object-cover"
+    alt="Toyota Land Cruiser">
+
+    <div class="p-5 sm:p-6">
+
+        <h3
+        data-aos="fade-left"
+        class="text-2xl sm:text-3xl font-bold text-red-500">
+
+            Toyota Land Cruiser
+
+        </h3>
+
+        <p
+        data-aos="fade-left"
+        class="mt-3 text-sm sm:text-base text-gray-300">
+
+            A legendary luxury SUV combining extreme off-road ability
+            with advanced technology.
+
+        </p>
+
+        <ul class="mt-4 text-sm sm:text-base text-gray-300 space-y-2">
+
+            <li data-aos="fade-left">🚗 Engine: 3.3L Twin Turbo Diesel</li>
+
+            <li data-aos="fade-left">⚡ Power: 304 PS</li>
+
+            <li data-aos="fade-left">🌍 Off-road Capability: Excellent</li>
+
+            <li data-aos="fade-left">🛡 Advanced Safety System</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- footer -->
+<!-- Footer -->
+<footer
+class="relative bg-fixed bg-cover bg-center text-white"
+style="background-image: url('https://img.magnific.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-102143.jpg?semt=ais_hybrid&w=740&q=80');">
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Footer Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+            <!-- Brand -->
+            <div>
+
+                <h2
+                data-aos="fade-right"
+                class="text-3xl font-bold text-black hover:text-red-500 transition">
+
+                    Toyota Motors
+
+                </h2>
+
+                <p
+                data-aos="fade-right"
+                class="mt-4 text-gray-300">
+
+                    Driving innovation and creating reliable mobility
+                    solutions for a better future.
+
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+
+                <h3
+                data-aos="fade-up"
+                class="text-xl font-semibold mb-4 text-gray-200">
+
+                    Quick Links
+
+                </h3>
+
+                <ul class="space-y-3 text-gray-300">
+
+                    <li class="hover:text-blue-800 cursor-pointer transition">
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li class="hover:text-blue-800 cursor-pointer transition">
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li class="hover:text-blue-800 cursor-pointer transition">
+                        <a href="#car">Cars</a>
+                    </li>
+
+                    <li class="hover:text-blue-800 cursor-pointer transition">
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Popular Cars -->
+            <div>
+
+                <h3
+                data-aos="fade-up"
+                class="text-xl font-semibold mb-4 text-gray-200">
+
+                    Popular Cars
+
+                </h3>
+
+                <ul class="space-y-3 text-gray-300">
+
+                    <li class="hover:text-black cursor-pointer transition">
+                        Fortuner
+                    </li>
+
+                    <li class="hover:text-black cursor-pointer transition">
+                        Innova Crysta
+                    </li>
+
+                    <li class="hover:text-black cursor-pointer transition">
+                        Camry
+                    </li>
+
+                    <li class="hover:text-black cursor-pointer transition">
+                        Land Cruiser
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+            <div id="contact">
+
+                <h3
+                data-aos="fade-up"
+                class="text-xl font-semibold mb-4 text-gray-200">
+
+                    Contact
+
+                </h3>
+
+                <p class="text-gray-300 hover:text-black cursor-pointer transition">
+                    Toyota Motor India
+                </p>
+
+                <p class="text-gray-300 hover:text-black cursor-pointer transition">
+                    Karnataka, India
+                </p>
+
+                <p class="text-gray-300 hover:text-black cursor-pointer transition break-all">
+                    info@toyota.com
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+
+        <div class="border-t border-gray-600 mt-10 pt-6 text-center text-black text-sm sm:text-base">
+
+            © 2026 Toyota Motors India. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- js -->
+<script src="parallax.js"></script>
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
